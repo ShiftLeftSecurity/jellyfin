@@ -463,12 +463,18 @@ namespace Emby.Server.Implementations.LiveTv.Listings
             }
 
             StringBuilder str = new StringBuilder("[", 1 + (programIds.Count * 13));
+
+            /*
+            Commented-out by Leandro due to a but in .NET/Roslyn:
+            -  https://github.com/dotnet/roslyn/issues/62747
+
             foreach (ReadOnlySpan<char> i in programIds)
             {
                 str.Append('"')
                     .Append(i.Slice(0, 10))
                     .Append("\",");
             }
+            */
 
             // Remove last ,
             str.Length--;
