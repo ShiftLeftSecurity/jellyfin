@@ -1,7 +1,5 @@
 <Project>
   <!-- Sets defaults for all projects in the repo -->
-  <NuGetAudit>false</NuGetAudit>
-
 
   <PropertyGroup>
     <Nullable>enable</Nullable>
