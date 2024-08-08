@@ -7,6 +7,8 @@
     <PublishRepositoryUrl>true</PublishRepositoryUrl>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
+    <NuGetAudit>false</NuGetAudit>
+
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
   </PropertyGroup>
 

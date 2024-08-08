@@ -4,6 +4,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <IsPackable>false</IsPackable>
     <CodeAnalysisRuleSet>../jellyfin-tests.ruleset</CodeAnalysisRuleSet>
+    <NuGetAudit>false</NuGetAudit>
+
   </PropertyGroup>
 
   <ItemGroup>

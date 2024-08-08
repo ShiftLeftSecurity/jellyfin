@@ -8,6 +8,8 @@
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <IncludeSymbols>true</IncludeSymbols>
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <NuGetAudit>false</NuGetAudit>
+
   </PropertyGroup>
 
   <PropertyGroup>

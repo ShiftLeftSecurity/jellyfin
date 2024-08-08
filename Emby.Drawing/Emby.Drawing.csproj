@@ -3,6 +3,7 @@
   <!-- ProjectGuid is only included as a requirement for SonarQube analysis -->
   <PropertyGroup>
     <ProjectGuid>{08FFF49B-F175-4807-A2B5-73B0EBD9F716}</ProjectGuid>
+    <NuGetAudit>false</NuGetAudit>
   </PropertyGroup>
 
   <PropertyGroup>
